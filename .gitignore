@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.omx/
+.omc/
+
+# Local standalone export artifact
+car-simulator-standalone.html
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

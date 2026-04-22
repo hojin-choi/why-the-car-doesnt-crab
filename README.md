@@ -1,7 +1,8 @@
 # why-the-car-doesnt-crab
 
-운전 초보에게 “핸들을 돌리면 네 바퀴가 다 같은 방향으로 도는 거 아니야?”를 설명하다가,  
-말로는 도저히 안 되겠어서 만든 브라우저 기반 3D 시뮬레이터입니다.
+운전 초보에게  
+“핸들을 돌리면 네 바퀴가 다 같은 방향으로 도는 거 아니야?”  
+라는 질문을 받고, 말로는 도저히 설명이 안 돼서 만든 브라우저 기반 3D 시뮬레이터입니다.
 
 특히 **후진 주차**에서:
 
@@ -21,6 +22,10 @@
 ## GitHub description
 
 Visual 3D simulator for explaining why cars don’t move like crabs — especially when reverse parking confuses beginners.
+
+## 데모
+
+- GitHub Pages: https://hojin-choi.github.io/why-the-car-doesnt-crab/
 
 ## 무엇을 보여주나
 

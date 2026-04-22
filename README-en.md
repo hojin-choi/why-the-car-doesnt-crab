@@ -3,8 +3,8 @@
 A browser-based 3D simulator built for one very specific moment:
 
 > You are trying to explain reverse parking to a beginner,  
-> they think all four wheels turn the same way,  
-> and words are no longer working.
+> and they ask, “If I turn the steering wheel, don’t all four wheels turn the same way?”  
+> At that point, words are no longer enough.
 
 This project exists to show:
 
@@ -21,6 +21,10 @@ And, if possible:
 ## GitHub description
 
 Visual 3D simulator for explaining why cars don’t move like crabs — especially when reverse parking confuses beginners.
+
+## Demo
+
+- GitHub Pages: https://hojin-choi.github.io/why-the-car-doesnt-crab/
 
 ## What it shows
 

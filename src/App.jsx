@@ -234,7 +234,10 @@ function useKeyboard() {
     const isInteractiveTarget = (target) =>
       target instanceof HTMLElement &&
       (target.isContentEditable ||
-        ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName));
+        target.tagName === 'TEXTAREA' ||
+        target.tagName === 'SELECT' ||
+        (target.tagName === 'INPUT' &&
+          !['checkbox', 'radio', 'range'].includes(target.type)));
 
     const down = (e) => {
       const key = e.key.toLowerCase();
@@ -398,7 +401,10 @@ function FollowCameraController({ enabled, state, distance, setDistance }) {
     const isInteractiveTarget = (target) =>
       target instanceof HTMLElement &&
       (target.isContentEditable ||
-        ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName));
+        target.tagName === 'TEXTAREA' ||
+        target.tagName === 'SELECT' ||
+        (target.tagName === 'INPUT' &&
+          !['checkbox', 'radio', 'range'].includes(target.type)));
 
     const onWheel = (e) => {
       if (isInteractiveTarget(e.target)) return;
